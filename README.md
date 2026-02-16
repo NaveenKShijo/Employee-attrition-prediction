@@ -5,6 +5,8 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/ML-Classification-green)
 
+Interact with the ML model here: https://naveen-employee-attrition-prediction.streamlit.app/
+
 An end-to-end Machine Learning project designed to predict and analyze employee activation rates. This repository includes the full research workflow in Jupyter Notebooks and a functional web interface built with Streamlit.
 
 ---
