@@ -72,24 +72,24 @@ if model and scaler:
 
     with col1:
         st.info("Personal & History")
-        age = st.number_input("Age", 18, 60, 30)
-        distance_from_home = st.number_input("Distance from home (km)", 0, 50, 10)
-        num_companies_worked = st.number_input("Num. companies worked", 0, 20, 1)
-        total_working_years = st.number_input("Total working years", 0, 40, 5)
+        age = st.number_input("Age", 18, 60, 34)
+        distance_from_home = st.number_input("Distance from home (km)", 1, 25, 1)
+        num_companies_worked = st.number_input("Num. companies worked", 0, 9, 1)
+        total_working_years = st.number_input("Total working years", 0, 40, 10)
 
     with col2:
         st.info("Role & Satisfaction")
-        years_at_company = st.number_input("Years at company", 0, 40, 3)
-        years_in_current_role = st.number_input("Years in current role", 0, 30, 2)
-        environment_satisfaction = st.slider("Environment Satisfaction (1-Low to 4-High)", 1, 4, 3)
+        years_at_company = st.number_input("Years at company", 0, 40, 5)
+        years_in_current_role = st.number_input("Years in current role", 0, 15, 2)
+        environment_satisfaction = st.slider("Environment Satisfaction (1-Low to 4-High)", 1, 4, 4)
         overtime = st.selectbox("Overtime", ['No', 'Yes']) # Swapped order for UI, logic handled below
 
     with col3:
         st.info("Compensation & Rates")
-        monthly_rate = st.number_input("Monthly Rate", value=100000)
-        daily_rate = st.number_input("Daily Rate", value=500)
-        hourly_rate = st.number_input("Hourly Rate", value=50)
-        percent_salary_hike = st.number_input("Percent salary hike (%)", 0, 50, 15)
+        monthly_rate = st.number_input("Monthly Rate", 2100, 26500,value=4223)
+        daily_rate = st.number_input("Daily Rate", 110, 1400, value=700)
+        hourly_rate = st.number_input("Hourly Rate", 30, 100, value=48)
+        percent_salary_hike = st.number_input("Percent salary hike (%)", 1, 13, 12)
 
     st.markdown("---")
 
